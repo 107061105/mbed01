@@ -1,9 +1,9 @@
 #include "mbed.h"
 
-DigitalOut myLED(LED4);
+DigitalOut myLED(LED3);
 DigitalOut myLED2(LED1);
 
-void Led(DigitalOut &ledpin, n);
+void Led(DigitalOut &ledpin, int n);
 
 int main()
 {
